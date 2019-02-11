@@ -224,6 +224,8 @@ body form button:hover{
 
 }
 
+
+
 /*
 .display-left{
 	position: absolute;
@@ -310,6 +312,21 @@ td{
 	transition-property: all;
 	transition-delay: 200ms;
 	transition-duration: 220ms;
+}
+
+/*Schedule*/
+.gallery{
+	padding-bottom: 8px;
+	padding-top: 3px;
+	position: absolute;
+	top: 47%;
+	left: 38%;
+	background-color: #ccccccb3;
+	border-radius: 25px;
+	border:2px solid black;
+	box-shadow: 1px 2px 2px black;
+	width: 40%;
+	flex-wrap: wrap;
 }
 /*Order page*/
 .order {
