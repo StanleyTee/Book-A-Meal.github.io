@@ -3,4 +3,4 @@
 UI design for my web application, Book-A-Meal
 
 # website
- https://stanleytee.github.io/Book-A-Meal.github.io/Meal%20Booking%20App/UI/HTML
+ https://stanleytee.github.io/Book-A-Meal.github.io/Meal%20Booking%20App/UI/HTML/Index.html
