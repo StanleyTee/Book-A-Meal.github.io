@@ -193,55 +193,55 @@ body form button:hover{
 	transition-duration: 220ms;
 }
 
-.slide{
-	/*Images here are 470px x 470px*/
+#notifications-placeholder{
+	display: inline;
 	position: absolute;
-	top: 49%;
-	left: 41%;
-	bottom: 25%;
-	width: 455px;
-  	height: 510px;
-  	display: flex;
-  	overflow-x: auto;
-  	-webkit-overflow-scrolling: touch;
-  	-webkit-scroll-snap-points-x: repeat(300px);
-    -ms-scroll-snap-points-x: repeat(300px);
-    scroll-snap-points-x: repeat(300px);
-  -webkit-scroll-snap-type: mandatory;
-   -ms-scroll-snap-type: mandatory;
-    scroll-snap-type: mandatory;
-    scroll-behavior: smooth;
+	top: 40%;
+	left: 74%;
+	background-color: #5c999999;
+	padding-left: 30px;
+	padding-right: 15px;
 }
-
-.slide p{
-	border-top: 2px solid black;
-	border-bottom: 2px solid black;
-	padding-left:12px; 
-	margin-top: 20px;
-	position: fixed;
-	flex-wrap: flex;
-	background-color: #679595; 
+/*Slider and Slide*/
+.slider {
+  height: 480px;
+  width: 30%;
+  margin: auto;
+  position: absolute;
+  overflow: hidden;
+  transform: translate3d(0, 0, 0);
+  top: 55%;
+  left: 40%;
 
 }
 
-
-
-/*
-.display-left{
-	position: absolute;
-	padding: 20px;
-	top: 60%;
-	left: 40%;
-	bottom: 50%;
+.slider > .slide {
+  height: 470px;
+  width: 470px;
+  background-color: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  transform: translate3d(1, 0, 1);
+}
+.slide img {
+  transition: opacity 0.2s ease-in;
+  background-position: 0 200px;
+  animation: moveSlideshow 15s linear infinite;
 }
 
-.display-right{
-	position: absolute;
-	padding: 20px;
-	top: 60%;
-	left: 70%;
-	bottom: 50%;
-}*/
+@keyframes moveSlideshow {
+  0% { 
+    transform: translateY(0%);  
+  }
+  50% { 
+    transform: translateY(-200%);  
+  }
+  100% { 
+    transform: translateY(-500%);  
+  }
+}
 
 /*Schedule Table*/
 table{
